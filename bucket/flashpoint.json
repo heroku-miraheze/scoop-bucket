@@ -1,31 +1,31 @@
 {
-  "version": "10.1",
-  "description": "BlueMaxima's Flashpoint Infinity. Archive of old flashpoint games/animations",
-  "homepage": "https://bluemaxima.org/flashpoint/",
-  "license": {
-    "identifier": "MIT",
-    "url": "https://github.com/FlashpointProject/launcher/blob/master/LICENSE"
-  },
-  "url": "https://bluemaxima.org/flashpoint/Flashpoint%2010.1%20Infinity.exe#/cosi.7z",
-  "hash": "8b9131d9117cc6b66c78aa33d7403b0f722f11e3c12b27f7061566f9009bf7cb",
-  "extract_dir": "Flashpoint 10.1 Infinity",
-  "shortcuts": [
-    [
-      "Launcher\\Flashpoint.exe",
-      "Flashpoint Infinity"
-    ]
-  ],
-  "persist": [
-    "Data\\Playlists",
-    "Flash Save Backup",
-    "Launcher\\config.json"
-  ],
-  "checkver": {
-    "url": "https://bluemaxima.org/flashpoint/changelog.txt",
-    "regex": "Flashpoint\\s+([\\d.]+)"
-  },
-  "autoupdate": {
-    "url": "https://bluemaxima.org/flashpoint/Flashpoint%20$version%20Infinity.exe#/cosi.7z",
-    "extract_dir": "Flashpoint $version Infinity"
-  }
+    "version": "11",
+    "description": "BlueMaxima's Flashpoint Infinity. Archive of old flashpoint games/animations",
+    "homepage": "https://bluemaxima.org/flashpoint/",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/FlashpointProject/launcher/blob/master/LICENSE"
+    },
+    "url": "https://bluemaxima.org/flashpoint/Flashpoint%2011%20Infinity.exe#/cosi.7z",
+    "hash": "43bfa95bb6e99ca03c8fedd1c8f5c7ed628dd41601dbd5a5b60be3963b166387",
+    "extract_dir": "Flashpoint 11 Infinity",
+    "shortcuts": [
+        [
+            "Launcher\\Flashpoint.exe",
+            "Flashpoint Infinity"
+        ]
+    ],
+    "persist": [
+        "Data\\Playlists",
+        "Flash Save Backup",
+        "Launcher\\config.json"
+    ],
+    "checkver": {
+        "url": "https://bluemaxima.org/flashpoint/changelog.txt",
+        "regex": "Flashpoint\\s+([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://bluemaxima.org/flashpoint/Flashpoint%20$version%20Infinity.exe#/cosi.7z",
+        "extract_dir": "Flashpoint $version Infinity"
+    }
 }
