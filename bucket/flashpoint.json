@@ -1,14 +1,14 @@
 {
-    "version": "11.1",
+    "version": "12",
     "description": "BlueMaxima's Flashpoint Infinity. Archive of old flashpoint games/animations",
-    "homepage": "https://bluemaxima.org/flashpoint/",
+    "homepage": "https://flashpointarchive.org/",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/FlashpointProject/launcher/blob/master/LICENSE"
     },
-    "url": "https://bluemaxima.org/flashpoint/Flashpoint%2011.1%20Infinity.exe#/cosi.7z",
-    "hash": "17006b5c8e1670522991b8eac3dcafb335f5776a4bc8844340d77c8057f85e49",
-    "extract_dir": "Flashpoint 11.1 Infinity",
+    "url": "https://download.unstable.life/static/fp1211072023.7z#/cosi.7z",
+    "hash": "74b65667549472ec0a989ea88c21c6998fd33d92",
+    "extract_dir": "Flashpoint 12 Infinity",
     "shortcuts": [
         [
             "Launcher\\Flashpoint.exe",
@@ -19,13 +19,5 @@
         "Data\\Playlists",
         "Flash Save Backup",
         "Launcher\\config.json"
-    ],
-    "checkver": {
-        "url": "https://bluemaxima.org/flashpoint/changelog.txt",
-        "regex": "Flashpoint\\s+([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "https://bluemaxima.org/flashpoint/Flashpoint%20$version%20Infinity.exe#/cosi.7z",
-        "extract_dir": "Flashpoint $version Infinity"
-    }
+    ]
 }
